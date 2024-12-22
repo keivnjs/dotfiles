@@ -78,6 +78,14 @@ return {
 		},
 	},
 
+	{
+		"snacks.nvim",
+		opts = {
+			scroll = { enabled = false },
+		},
+		keys = {},
+	},
+
 	-- filename
 	{
 		"b0o/incline.nvim",
@@ -125,17 +133,6 @@ return {
 					modified_sign = "",
 					readonly_icon = " ?? ",
 				}),
-			}
-		end,
-	},
-
-	-- animations
-	{
-		"echasnovski/mini.animate",
-		event = "VeryLazy",
-		opts = function(_, opts)
-			opts.scroll = {
-				enable = false,
 			}
 		end,
 	},
