@@ -21,6 +21,7 @@ TAGS
 /solana
 /iterm2
 tmux/plugins/
+nvim/lazyvim.json
 
 lazy-lock.json
 lazyvim.json
