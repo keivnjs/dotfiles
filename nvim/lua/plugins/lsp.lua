@@ -37,9 +37,16 @@ return {
 			servers = {
 				cssls = {},
 				tailwindcss = {
-					root_dir = function(...)
-						return require("lspconfig.util").root_pattern(".git")(...)
-					end,
+					filetypes = {
+						"templ",
+						"vue",
+						"html",
+						"astro",
+						"javascript",
+						"typescript",
+						"react",
+						"htmlangular",
+					},
 				},
 				tsserver = {
 					root_dir = function(...)
