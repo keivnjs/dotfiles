@@ -1,7 +1,7 @@
 -- https://xplr.dev/en/configuration
 
 ---@diagnostic disable
-version = "0.21.3"
+version = "1.1.0"
 local xplr = xplr
 ---@diagnostic enable
 
