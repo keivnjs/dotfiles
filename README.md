@@ -11,10 +11,10 @@ Neovim config built on [LazyVim](https://www.lazyvim.org/) with [lazy.nvim](http
 - **Theme**: TokyoNight (with transparency)
 - **LSP**: Mason + nvim-lspconfig (tailwindcss, cssls, etc.)
 - **Completion**: blink.cmp
-- **Navigation**: Telescope, fzf-lua, Flash, Neo-tree
+- **Navigation**: Telescope, telescope-fzf-native, Telescope file browser
 - **AI**: amp.nvim (Sourcegraph)
 - **Git**: gitsigns, git.nvim
-- **Treesitter**: Full syntax tree support with autotag
+- **Treesitter**: Parsers for Astro, CMake, C++, CSS, Go, GraphQL, Java, PHP, Rust, SQL, Svelte, and more
 - **Extras**: Conform (formatter), nvim-lint, Trouble, which-key, mini.nvim modules
 
 ### [Tmux](tmux/)
